@@ -1,0 +1,40 @@
+.Article{
+    display: flex;
+    max-width: 1100px;
+    padding: 10px 40px;
+    align-items: center;
+    gap: 25px;
+    border-radius: 20px;
+    background:#7D29D9;
+}
+.Article-reviews1{
+    color: #C6FF69;
+    font-family: 'Unbounded', sans-serif;
+    font-size: 53px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 82.15px; /* 155% */
+}
+.Article-reviews2{
+    color: #FFF;
+    font-family: 'Unbounded', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px; /* 125% */
+}
+.Article-btn_start{
+    display: flex;
+    padding: 20px 40px;
+    justify-content: center;
+    align-items: center;
+    color: #7D29D9;
+    font-family: 'Unbounded', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 32px;
+    background: #C6FF69;
+    border: none;
+}
