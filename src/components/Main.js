@@ -3,6 +3,7 @@ import Section1 from "./Section1";
 import Section2 from "./Section2";
 import Section3 from "./Section3";
 import Section4 from "./Section4";
+import Section5 from "./Section5";
 import Article from "./Article";
 
 class Main extends React.Component{
@@ -13,9 +14,14 @@ class Main extends React.Component{
                     <Section1 />
                     <Section2 />
                     <Section3 />
-                    <Article />
+                    <Article  />
                 </div>
-                <Section4 />
+
+                    <Section4 />
+                    
+                <div className="Main">
+                    <Section5 />
+                </div>
             </main>
         )
     }
