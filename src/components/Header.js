@@ -5,15 +5,15 @@ import '../css/header.css'
 class Header extends React.Component{
     render() {
         return(
-            <header>
+            <header className="Header">
                 <div>
                     <picture>
                         <img src={logo} className="logo" alt=""/>
                     </picture>
                     <nav className="headerNav">
-                        <a href="#">Пробный урок</a>
-                        <a href="#">Обучение</a>
-                        <a href="#">Преподаватели</a>
+                        <a href="#Header">Пробный урок</a>
+                        <a href="#Header">Обучение</a>
+                        <a href="#Header">Преподаватели</a>
                     </nav>
 
                     <div className="contact">
