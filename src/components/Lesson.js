@@ -20,7 +20,7 @@ class Lesson extends React.Component{
                     </form>
                     <p className="Lesson-politics">
                         Нажимая на кнопку Записаться, вы соглашаетесь <br/>
-                        <a href='#' className="Lesson-mark"> с политикой обработки персональных данных</a>
+                        <a href='../../public/index.html' className="Lesson-mark"> с политикой обработки персональных данных</a>
                     </p>
                 </div>
                 <div className="Lesson-rightPart">
