@@ -11,9 +11,9 @@ class Header extends React.Component{
                         <img src={logo} className="logo" alt=""/>
                     </picture>
                     <nav className="headerNav">
-                        <a href="../public/index.html">Пробный урок</a>
-                        <a href="../public/index.html">Обучение</a>
-                        <a href="../public/index.html">Преподаватели</a>
+                        <a href="#">Пробный урок</a>
+                        <a href="#">Обучение</a>
+                        <a href="#">Преподаватели</a>
                     </nav>
 
                     <div className="contact">
