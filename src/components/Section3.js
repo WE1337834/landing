@@ -17,7 +17,7 @@ class Section3 extends React.Component{
                         <span className="Section3-title">
                             Первое знакомство
                         </span>
-                        <img src={First_meeting}  className="Section3-picture"/>
+                        <img src={First_meeting} alt='' className="Section3-picture"/>
                         <p className="Section3-description">На первом бесплатном занятии, ученик знакомится с педагогом, проходит диагностику знаний, разбирает задания, закрепляет на практике. Выбирают материал для изучения.</p>
                     </div>
                 
@@ -25,7 +25,7 @@ class Section3 extends React.Component{
                         <span className="Section3-title">
                             Процесс обучения
                         </span>
-                        <img src={Learning_process}  className="Section3-picture"/>
+                        <img src={Learning_process} alt='' className="Section3-picture"/>
                         <p className="Section3-description">Занятия строятся на системном обучении. В начале урока идет проверка знаний, далее новый материал и подведение итогов.</p>
                     </div>
                 
@@ -33,7 +33,7 @@ class Section3 extends React.Component{
                         <span className="Section3-title">
                             Итоговые задания
                         </span>
-                        <img src={Final_tasks}  className="Section3-picture"/>
+                        <img src={Final_tasks} alt='' className="Section3-picture"/>
                         <p className="Section3-description">Ученик решает типовые тесты, разбирают вместе с педагогом задания в соответствии с уровнем знаний и проводят симуляцию экзамена.</p>
                     </div>
                 </article>

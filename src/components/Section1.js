@@ -45,7 +45,7 @@ class Section1 extends React.Component{
                     </div>
                     
                     <div className="Section1-rightPart">
-                        <img className='Section1-imgGreeting' src={greeting}/>
+                        <img className='Section1-imgGreeting' alt='' src={greeting}/>
                     </div>
 
                         

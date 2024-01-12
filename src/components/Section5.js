@@ -15,7 +15,7 @@ class Section5 extends React.Component{
                 <article className="Section5-lessons">
                     <div className="Section5-individual_lessons Section5-block">
                         <h2 className="Section5-h2">
-                            <img src={individual_lessons} className="Section5-lessons_img"/>
+                            <img src={individual_lessons} alt='' className="Section5-lessons_img"/>
                             <span className="Section5-title_lesson">Индивидуальные <br /> уроки</span>
                         </h2>
                         <p className="Section5-description_individual_lessons">
@@ -51,7 +51,7 @@ class Section5 extends React.Component{
 
                     <div className="Section5-group_lessons Section5-block">
                         <h2 className="Section5-h2">
-                            <img src={group_lessons} className="Section5-lessons_img"/>
+                            <img src={group_lessons} alt='' className="Section5-lessons_img"/>
                             <span className="Section5-title_lesson">Групповые <br /> уроки</span>
                         </h2>
                         <p className="Section5-description_group_lessons">

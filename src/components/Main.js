@@ -6,6 +6,9 @@ import Section4 from "./Section4";
 import Section5 from "./Section5";
 import Article from "./Article";
 import Reviews from "./Reviews";
+import Lesson from "./Lesson";
+import Footer from "./Footer";
+
 class Main extends React.Component{
     render(){
         return(
@@ -22,7 +25,9 @@ class Main extends React.Component{
                 <div className="Main">
                     <Section5 />
                     <Reviews  />
+                    <Lesson   />
                 </div>
+                    <Footer   />
             </main>
         )
     }

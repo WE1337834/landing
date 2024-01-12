@@ -11,7 +11,7 @@ class Reviews extends React.Component{
                 <article className="Reviews-reviews">
                     <div className="Rewiews-block_side">
                         <h3 className="Reviews-title_name_side">
-                            <img src={Tatiana} className="Rewiews-img"/>
+                            <img src={Tatiana} alt=''className="Rewiews-img"/>
                             <div className="Rewiews-name_and_job_title">
                                 <div className="Rewiews-name_side">Татьяна</div>
                                 <div className="Rewiews-job_title_side">Ученица</div>
@@ -33,7 +33,7 @@ class Reviews extends React.Component{
 
                     <div className="Rewiews-block_center">
                         <h3 className="Reviews-title_name_center">
-                            <img src={Nadezhda} className="Rewiews-img"/>
+                            <img src={Nadezhda} alt=''className="Rewiews-img"/>
                             <div className="Rewiews-name_and_job_title">
                                 <div className="Rewiews-name_center">Надежда</div>
                                 <div className="Rewiews-job_title_center">Родитель</div>
@@ -54,7 +54,7 @@ class Reviews extends React.Component{
 
                     <div className="Rewiews-block_side">
                         <h3 className="Reviews-title_name_side">
-                            <img src={Maksim} className="Rewiews-img"/>
+                            <img src={Maksim} alt=''className="Rewiews-img"/>
                             <div className="Rewiews-name_and_job_title">
                                 <div className="Rewiews-name_side">Максим</div>
                                 <div className="Rewiews-job_title_side">Ученик</div>

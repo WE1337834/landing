@@ -31,16 +31,22 @@ a{
     color: #401371;
 }
 
-.contact, .contact > .tel{
+.contact{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.tel{
     color: #7D29D9;
     float: left;
     font-size: 25px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    gap: 10px;
 }
 
-.contact > label{
+.whatsapp{
     background-color: #c6ff69;
     border: 1px solid #7D29D9;
     border-radius: 10px;
@@ -50,7 +56,7 @@ a{
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
-    color: var(--, #7D29D9);
+    color: #7D29D9;
     text-align: center;
     font-size: 14px;
     font-style: normal;
